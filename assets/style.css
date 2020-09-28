@@ -22,3 +22,42 @@
     height: 60;
     padding: 10px;
 }
+
+.weather {
+    font-size: 14px;
+    background-color: rgba(40, 120, 230, 0.931);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col {
+    border: none;
+    min-width: 120px;
+}
+
+#searchbar {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 960px) {
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        background-color: rgba(0,0,0,.03);
+        padding:10px;
+        max-height: 100vh;
+    }
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+    }
+
+    button {
+        width: 80%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
