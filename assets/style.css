@@ -60,4 +60,29 @@
         margin-right: 10px;
         margin-bottom: 10px;
     }
+
+    #searchbar input {
+        width:70%;
+        float: left;
+        border: none;
+    }
+
+    #searchbar button {
+        width: 20%;
+        float: left;
+        border: none;
+        background-color: none;;
+    }
+
+    #searchbar::after {
+        content: "";
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col {
+        max-width: 125px;
+        margin-top: 10px;
+    }
 }
