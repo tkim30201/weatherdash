@@ -8,7 +8,7 @@
     font-weight: bolder;
 }
 
-.sidebar-header {
+.sidebar-header, .card-header {
     font-size: 22px;
 }
 

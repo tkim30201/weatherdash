@@ -19,8 +19,7 @@
         <div class="wrapper">
             <nav class="container" id="sidebar">
                 <div class="sidebar-header">
-                    <p>Search for a City:</p>
-                    <input id="searchbar" type="search" placeholder="Search">
+                    <p>Search for a City:<input id="searchbar" type="search" placeholder="Search"></p>
                     <div id="past-search"></div>
                 </div>
             </nav>
@@ -28,11 +27,13 @@
             <div id="main">
                 <div class="container">
                     <div class="card border-light mb-3">
+                        <div class="card-header">
+                            <p id="current-city"></p>
+                            <p id="current-date" style="font-size: 16px;"></p>
+                        </div>
+
                         <div class="card-body row">
                             <div class="col-6">
-                                <div id="current-city"></div>
-                                <div id="current-date"></div>
-                                <br>
                                 <div id="current-temp"></div>
                                 <br>
                                 <div id="current-humidity"></div>
@@ -42,12 +43,66 @@
                                 <div>UV Index: <span id="current-uv"></span></div>
                                 <br>
                             </div> 
-
-
                         </div>
                     </div>
-
                 </div>
+
+                <div class="container">
+                    <h2 style="font-size: 22px;">5-Day Forecast:</h2>
+                    <div class="row">
+                        <div class="card column">
+                            <div class="weather" value= "1">
+                                <div class="date">date</div>
+                                <br>
+                                <div class="temp">Temp</div>
+                                <br>
+                                <div class="hum">Humidity</div>
+                            </div>
+                        </div>
+
+                        <div class="card column">
+                            <div class="weather" value= "2">
+                                <div class="date">date</div>
+                                <br>
+                                <div class="temp">Temp</div>
+                                <br>
+                                <div class="hum">Humidity</div>
+                            </div>
+                        </div>
+
+                        <div class="card column">
+                            <div class="weather" value= "3">
+                                <div class="date">date</div>
+                                <br>
+                                <div class="temp">Temp</div>
+                                <br>
+                                <div class="hum">Humidity</div>
+                            </div>
+                        </div>
+
+                        <div class="card column">
+                            <div class="weather" value= "4">
+                                <div class="date">date</div>
+                                <br>
+                                <div class="temp">Temp</div>
+                                <br>
+                                <div class="hum">Humidity</div>
+                            </div>
+                        </div>
+
+                        <div class="card column">
+                            <div class="weather" value= "5">
+                                <div class="date">date</div>
+                                <br>
+                                <div class="temp">Temp</div>
+                                <br>
+                                <div class="hum">Humidity</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
 
